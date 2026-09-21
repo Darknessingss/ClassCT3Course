@@ -10,7 +10,7 @@ public sealed class EnemyConfig : ScriptableObject
     [field: SerializeField] public int Rows { get; private set; } = 4;
     [field: SerializeField] public float SpacingX { get; private set; } = 1.2f;
     [field: SerializeField] public float SpacingY { get; private set; } = 1.2f;
-
+        
     [field: SerializeField] public int Health { get; private set; } = 2;
     [field: SerializeField] public int ScorePerKill { get; private set; } = 10;
 
